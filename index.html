@@ -33,8 +33,22 @@
 		</select>
 	</fieldset>
 	
-	
-	
+	<fieldset>
+	<legend>My Availability</legend>
+		<p><label>Days Available:</label></p>
+        <p><label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label></p>
+        <p><label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label></p>
+        <p><label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label></p>
+        <p><label>Wednesday<input type="checkbox" name="available_field[]" value="Wednesday"></label></p>
+        <p><label>Thursday<input type="checkbox" name="available_field[]" value="Thursday"></label></p>
+        <p><label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label></p>
+        <p><label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label></p>
+		
+		<p><label>Any Comments?</label></p>
+        <p><textarea rows="30" cols="45" name ="comments_field"></textarea></p>
+		<input type="hidden" name="hidden_field" value="David Portales">
+	</fieldset>
+	<p><input type="submit" value="Send Me"></p>
 	</form>
 </body>
 </html>
